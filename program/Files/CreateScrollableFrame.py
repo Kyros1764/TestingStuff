@@ -3,7 +3,7 @@ import requests
 import json
 import customtkinter as ctk
 
-url = "https://raw.githubusercontent.com/Kyros1764/TestingStuff/refs/heads/master/Manifests/manifests.json"
+url = "https://pastebin.com/raw/MKdkTECb"
 
 def fetchEventsList():
     try:
