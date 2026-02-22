@@ -1,10 +1,8 @@
 {
-
-    "Manifests": {
-
-        "ManifestName": "ManifestTest",
-        "ManifestPath": "../ManifestList/test.txt"
-
-    }
-
+    "Manifests": [
+        {
+            "ManifestName": "ManifestTest",
+            "ManifestPath": "../ManifestList/test.txt"
+        }
+    ]
 }
