@@ -1,6 +1,7 @@
 from logging import warning
 import requests
 import json
+import customtkinter as ctk
 
 url = "https://raw.githubusercontent.com/Kyros1764/TestingStuff/refs/heads/master/Manifests/manifests.json"
 
@@ -17,6 +18,15 @@ def fetchEventsList():
     except (KeyError, ValueError) as e:
         warning(f"Error parsing response: {e}")
         return []
+    
+class frame(ctk.CTkScrollableFrame):
+    def __init__(self, master, **kwargs):
+        super().__init__(master, **kwargs)
+        self.pack(fill="both", expand=True)
+        self.populate()
 
-if __name__ == "__main__":
-    print(fetchEventsList())
+    def populate(self):
+        events = fetchEventsList()
+        for event in events:
+            radioBtn = ctk.CTkRadioButton(self, text=event)
+            radioBtn.pack(pady=5)

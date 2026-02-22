@@ -3,6 +3,18 @@
         {
             "ManifestName": "ManifestTest",
             "ManifestPath": "../ManifestList/test.txt"
+        },
+        {
+            "ManifestName": "Fortnite Chapter 1 Season 4 - Rocket Launch",
+            "ManifestPath": "test"
+        },
+        {
+            "ManifestName": "Fortnite Chapter 1 Season 5 - Cube Apparition + Cube sinking in",
+            "ManifestPath": "test"
+        },
+        {
+            "ManifestName": "Fortnite Chapter 1 Season 8 - The Unvaulting",
+            "ManifestPath": "test"
         }
     ]
 }
