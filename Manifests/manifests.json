@@ -1,10 +1,10 @@
 {
 
-    "Manifests": {
+    "Manifests": [
 
         "ManifestName": "ManifestTest",
         "ManifestPath": "../ManifestList/test.txt"
 
-    }
+    ]
 
 }
